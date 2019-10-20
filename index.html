@@ -1,0 +1,104 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>来，左边一起跟我画彩虹</title>
+    <style>
+        body {
+            background-color: #fff
+        }
+
+        .rainbow {
+            height: 250px;
+            overflow: hidden;
+        }
+
+        .rainbow div {
+            overflow: hidden;
+            border-radius: 50%;
+        }
+
+        .rainbow>div {
+            width: 500px;
+            height: 500px;
+            background-color: red;
+        }
+
+        .rainbow>div>div {
+            width: 480px;
+            height: 480px;
+            background-color: orange;
+            margin: 10px;
+        }
+
+        .rainbow>div>div>div {
+            width: 460px;
+            height: 460px;
+            background-color: yellow;
+            margin: 10px;
+        }
+
+        .rainbow>div>div>div>div {
+            width: 440px;
+            height: 440px;
+            background-color: green;
+            margin: 10px;
+        }
+
+        .rainbow>div>div>div>div>div {
+            width: 420px;
+            height: 420px;
+            background-color: rgb(0, 119, 255);
+            margin: 10px;
+        }
+
+        .rainbow>div>div>div>div>div>div {
+            width: 400px;
+            height: 400px;
+            background-color: blue;
+            margin: 10px;
+        }
+
+        .rainbow>div>div>div>div>div>div>div {
+            width: 380px;
+            height: 380px;
+            background-color: rgb(183, 0, 255);
+            margin: 10px;
+        }
+
+        .rainbow>div>div>div>div>div>div>div::after {
+            content: '';
+            display: block;
+            width: 360px;
+            height: 360px;
+            margin: 10px;
+            background-color: #fff;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="rainbow">
+        <div>
+            <div>
+                <div>
+                    <div>
+                        <div>
+                            <div>
+                                <div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
